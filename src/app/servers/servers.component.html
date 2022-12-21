@@ -17,5 +17,4 @@ class="form-control"
 <ng-template #noServer>
     <p>NO Server was created</p>
 </ng-template>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let ser of servers"></app-server>
